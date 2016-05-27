@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+	PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+	"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="Order">
+
+	<sql id="Table_Name">
+		s_order
+	</sql>
+
+
+	<sql id="Base_Column_List">
+		ID,
+		CREATED_TIME,
+		CREATOR_ID,
+		CREATOR_NAME,
+		DOMAIN_ID,
+		DOMAIN_NAME,
+		LOCK_VERSION,
+		UPDATED_TIME,
+		UPDATOR_ID,
+		UPDATOR_NAME,
+		RE_MARK,
+		UDF1,
+		UDF2,
+		UDF3,
+		UDF4,
+		UDF5,
+		UDF6,
+		UDF7,
+		UDF8,
+		ORDER_CODE,
+		ACCOUNT_CENTER_ID,
+		ACCOUNT_CENTER_NAME,
+		SITE_ID,
+		SITE_NAME,
+		BALANCE_TYPE_ID,
+		BALANCE_TYPE_NAME,
+		EACH_AMOUNT,
+		DEDUCT_TIME,
+		IS_SETTLED,
+		IS_PROCESS
+	</sql>
+
+
+</mapper>
